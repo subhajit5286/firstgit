@@ -9,3 +9,9 @@ console.log(item[0])
 
 item[0].style.fontWeight='bold';
 item[0].style.color='green';
+
+var listitems=document.getElementsByClassName('list-group-item');
+listitems[2].style.backgroundColor='green';
+for(var i=0;i<listitems.length;i++){
+    listitems[i].style.fontWeight='bold';
+}
