@@ -16,3 +16,7 @@ for(var i=0;i<listitems.length;i++){
     listitems[i].style.fontWeight='bold';
 }
 console.log('sb')
+var li=document.getElementsByTagName('li');
+console.log(li)
+li[4].textContent='Last item';
+li[4].style.backgroundColor='pink'
