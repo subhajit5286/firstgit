@@ -15,3 +15,4 @@ listitems[2].style.backgroundColor='green';
 for(var i=0;i<listitems.length;i++){
     listitems[i].style.fontWeight='bold';
 }
+console.log('sb')
